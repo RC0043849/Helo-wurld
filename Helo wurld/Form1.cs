@@ -19,7 +19,7 @@ namespace Helo_wurld
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Elo Wurld");
+            MessageBox.Show("Elo " + txtBxName.Text);
         }
     }
 }
